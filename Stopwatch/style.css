@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0f0202;
+    background-image: url('https://i.pinimg.com/736x/5c/b0/25/5cb025d5c32c501e9d2c9b482a5d38a1.jpg');
+}
+h1{
+    background-color: #ccc;
+    border:2px solid black;
+    margin: 1px;
+    padding: 2px;
+}
+.stopwatch {
+    margin: 20px auto;
+    width: 300px;
+    background-color: #331a1a;
+    border: 1px solid aqua;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#laps {
+    text-align: left;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 2px solid #15a44e;
+    border-radius: 5px;
+    color: aqua;
+}
+#startStop {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #15a44e, -6px -6px 12px #71ad62;
+  }
+  
+  #startStop:hover {
+    border: 1px solid white;
+  }
+  
+  #startStop:active {
+    box-shadow: 4px 4px 12px #15a44e, -4px -4px 12px #15a44e;
+  }
+  #lapReset {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #15a44e, -6px -6px 12px #15a44e;
+  }
+  
+  #lapReset:hover {
+    border: 1px solid white;
+  }
+  
+  #lapReset:active {
+    box-shadow: 4px 4px 12px #15a44e, -4px -4px 12px #15a44e;
+  }
